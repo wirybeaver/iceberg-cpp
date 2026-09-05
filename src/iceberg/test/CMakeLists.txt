@@ -132,6 +132,7 @@ add_iceberg_test(util_test
                  content_file_util_test.cc
                  data_file_set_test.cc
                  decimal_test.cc
+                 dv_writer_preflight_test.cc
                  endian_test.cc
                  file_io_test.cc
                  formatter_test.cc
