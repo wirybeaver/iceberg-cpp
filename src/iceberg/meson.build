@@ -219,6 +219,7 @@ iceberg_sources = files(
 )
 
 iceberg_data_sources = files(
+    'data/compaction_executor.cc',
     'data/data_writer.cc',
     'data/delete_filter.cc',
     'data/delete_loader.cc',

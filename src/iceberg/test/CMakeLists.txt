@@ -257,6 +257,7 @@ if(ICEBERG_BUILD_BUNDLE)
                    SOURCES
                    arrow_c_data_util_test.cc
                    arrow_row_builder_test.cc
+                   compaction_executor_test.cc
                    data_writer_test.cc
                    default_value_test.cc
                    delete_filter_test.cc

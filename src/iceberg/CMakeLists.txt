@@ -238,6 +238,7 @@ if(MSVC_TOOLCHAIN)
 endif()
 
 set(ICEBERG_DATA_SOURCES
+    data/compaction_executor.cc
     data/data_writer.cc
     data/delete_filter.cc
     data/delete_loader.cc

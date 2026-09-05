@@ -64,6 +64,10 @@ iceberg_tests = {
         ),
     },
     'compaction_planner_test': {'sources': files('compaction_planner_test.cc')},
+    'compaction_executor_test': {
+        'sources': files('compaction_executor_test.cc'),
+        'use_data': true,
+    },
     'logging_test': {
         'sources': files(
             'cerr_logger_test.cc',

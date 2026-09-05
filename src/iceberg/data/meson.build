@@ -17,6 +17,7 @@
 
 install_headers(
     [
+        'compaction_executor.h',
         'data_writer.h',
         'delete_filter.h',
         'delete_loader.h',
