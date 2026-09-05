@@ -190,6 +190,9 @@ if(ICEBERG_BUILD_BUNDLE)
 
   add_iceberg_test(metadata_table_test USE_BUNDLE SOURCES metadata_table_test.cc)
 
+  add_iceberg_test(position_deletes_table_test USE_BUNDLE SOURCES
+                   position_deletes_table_test.cc)
+
   add_iceberg_test(eval_expr_test
                    USE_BUNDLE
                    SOURCES
